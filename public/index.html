@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>myvantdemo</title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but myvantdemo doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <!-- 在 head 标签中添加 meta 标签，并设置 viewport-fit=cover 值 -->
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+  <!-- 开启 safe-area-inset-bottom 属性 -->
+  <van-number-keyboard safe-area-inset-bottom />
+  <meta name="description" content="可芽健康商城是基于遗传基因与肠道健康检测，解决癌症预防、运动减肥、美容护肤、养生保健、科学育儿等问题的大健康商城。">
+  <meta name="keywords" content="可芽健康商城,基因检测,肠道菌群检测,癌症预防,慢性病防治,运动减肥,美容护肤,养生保健,营养饮食,科学育儿">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>VantDemo</title>
+</head>
+
+<body>
+  <div id="app"></div>
+</body>
+
 </html>

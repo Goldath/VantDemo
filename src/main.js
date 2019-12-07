@@ -3,6 +3,11 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
+//引入vant组件库
+import Vant from "vant";
+import "vant/lib/index.css";
+Vue.use(Vant);
+
 Vue.config.productionTip = false;
 
 new Vue({
@@ -10,3 +15,15 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount("#app");
+
+module.exports = {
+  plugins: {
+    autoprefixer: {
+      browsers: ["Android >= 4.0", "iOS >= 7"]
+    },
+    "postcss-pxtorem": {
+      rootValue: 37.5,
+      propList: ["*"]
+    }
+  }
+};
