@@ -15,15 +15,3 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount("#app");
-
-module.exports = {
-  plugins: {
-    autoprefixer: {
-      browsers: ["Android >= 4.0", "iOS >= 7"]
-    },
-    "postcss-pxtorem": {
-      rootValue: 37.5,
-      propList: ["*"]
-    }
-  }
-};
