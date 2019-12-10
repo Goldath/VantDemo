@@ -1,14 +1,19 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
-
+import Home from "../views/Home.vue"; //主页面
+import Login from "../views/Login.vue"; //登录页面
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "home",
+    name: "Home",
     component: Home
+  },
+  {
+    path: "/Login",
+    name: "Login",
+    component: Login
   },
   {
     path: "/about",

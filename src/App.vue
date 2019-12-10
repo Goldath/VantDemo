@@ -1,12 +1,20 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+    <keep-alive :include="includeList">
+      <router-view />
+    </keep-alive>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      includeList: ['Home','MyUser'] //缓存组件列表   C 跳转到 A 时让 A 不缓存，即刷新
+    };
+  },
+}
+</script>
 
 <style lang="less">
 #app {
