@@ -24,6 +24,7 @@
 height: 100vh;
 width: 100vw;
 }
+
 .centreContent {
 height: ~"calc(100vh - 50px)";
 }

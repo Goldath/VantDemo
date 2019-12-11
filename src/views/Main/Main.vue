@@ -13,8 +13,8 @@ export default {
   data() {
     return {
       images: [
-        "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/5eba71243eb1334ec59f01ee26fbbb52.jpg?thumb=1&w=1226&h=460&f=webp&q=90",
-        "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/08c17b334292e67a41b8973489b9481a.jpg?w=2452&h=920"
+        "https://img.yzcdn.cn/vant/apple-4.jpg",
+        "https://img.yzcdn.cn/vant/apple-3.jpg"
       ]
     };
   }
