@@ -27,14 +27,13 @@ export default {
 
 /* 引入阿里图标库 */
 @font-face {
-  font-family: "iconfont"; /* project id 1555823 */
-  src: url("//at.alicdn.com/t/font_1555823_acn7z98d17f.eot");
-  src: url("//at.alicdn.com/t/font_1555823_acn7z98d17f.eot?#iefix")
-      format("embedded-opentype"),
-    url("//at.alicdn.com/t/font_1555823_acn7z98d17f.woff2") format("woff2"),
-    url("//at.alicdn.com/t/font_1555823_acn7z98d17f.woff") format("woff"),
-    url("//at.alicdn.com/t/font_1555823_acn7z98d17f.ttf") format("truetype"),
-    url("//at.alicdn.com/t/font_1555823_acn7z98d17f.svg#iconfont") format("svg");
+  font-family: 'iconfont';  /* project id 1555823 */
+  src: url('//at.alicdn.com/t/font_1555823_u5p1uj939w.eot');
+  src: url('//at.alicdn.com/t/font_1555823_u5p1uj939w.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1555823_u5p1uj939w.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1555823_u5p1uj939w.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1555823_u5p1uj939w.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1555823_u5p1uj939w.svg#iconfont') format('svg');
 }
 .iconfont {
   font-family: "iconfont" !important;
@@ -44,6 +43,7 @@ export default {
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 #nav {
   padding: 30px;
