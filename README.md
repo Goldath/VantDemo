@@ -2,7 +2,7 @@
 
 #**项目涉及的技术：**
 
-##vue、javascript、rem、vant
+vue、javascript、rem、vant
 
 #**项目目录结构**
 
